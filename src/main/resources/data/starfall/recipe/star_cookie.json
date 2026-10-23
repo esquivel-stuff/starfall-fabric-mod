@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W*W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "*": {
+      "item": "starfall:star_shard"
+    }
+  },
+  "result": {
+    "id": "starfall:star_cookie",
+    "count": 4
+  }
+}
