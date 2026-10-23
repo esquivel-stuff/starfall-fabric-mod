@@ -1,6 +1,7 @@
 package dev.esquivel.starfall;
 
 import dev.esquivel.starfall.item.BlinkWandItem;
+import dev.esquivel.starfall.item.LoreItem;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -15,16 +16,16 @@ public final class ModItems {
 
 	/** Crafting ingredient: amethyst + glowstone. */
 	public static final Item STAR_SHARD = register("star_shard",
-			new Item(new Item.Properties()));
+			new LoreItem(new Item.Properties(), 2));
 
 	/** Food that grants 30 seconds of Night Vision. */
 	public static final Item STAR_COOKIE = register("star_cookie",
-			new Item(new Item.Properties().food(new FoodProperties.Builder()
+			new LoreItem(new Item.Properties().food(new FoodProperties.Builder()
 					.nutrition(4)
 					.saturationModifier(0.6f)
 					.alwaysEdible()
 					.effect(new MobEffectInstance(MobEffects.NIGHT_VISION, 20 * 30), 1.0f)
-					.build())));
+					.build()), 2));
 
 	/** Right-click to blink up to 8 blocks in the direction you are looking. */
 	public static final Item BLINK_WAND = register("blink_wand",

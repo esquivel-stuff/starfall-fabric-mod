@@ -1,7 +1,19 @@
 {
   "itemGroup.starfall.main": "Starfall",
   "item.starfall.star_shard": "Star Shard",
+  "item.starfall.star_shard.tooltip.0": "Crafts Star Blocks, Star Cookies and the Blink Wand",
+  "item.starfall.star_shard.tooltip.1": "Still warm from the fall.",
   "item.starfall.star_cookie": "Star Cookie",
+  "item.starfall.star_cookie.tooltip.0": "Night Vision for 30 seconds",
+  "item.starfall.star_cookie.tooltip.1": "Baked under an open sky.",
   "item.starfall.blink_wand": "Blink Wand",
-  "block.starfall.star_block": "Star Block"
+  "item.starfall.blink_wand.tooltip.0": "Use to blink up to %s blocks where you look",
+  "item.starfall.blink_wand.tooltip.1": "Always lands on your feet. Recharge: %ss",
+  "item.starfall.blink_wand.tooltip.2": "Leaves the stars a little out of place.",
+  "block.starfall.star_block": "Star Block",
+  "block.starfall.star_block.tooltip.0": "Light level 15. Sheds motes of starlight",
+  "block.starfall.star_block.tooltip.1": "Nine shards, packed until they hum.",
+  "subtitles.starfall.item.blink_wand.depart": "Wand blinks away",
+  "subtitles.starfall.item.blink_wand.arrive": "Starlight lands",
+  "subtitles.starfall.item.blink_wand.fizzle": "Wand fizzles"
 }

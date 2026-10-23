@@ -1,0 +1,23 @@
+{
+  "item.blink_wand.depart": {
+    "subtitle": "subtitles.starfall.item.blink_wand.depart",
+    "sounds": [
+      "starfall:blink/depart1",
+      "starfall:blink/depart2"
+    ]
+  },
+  "item.blink_wand.arrive": {
+    "subtitle": "subtitles.starfall.item.blink_wand.arrive",
+    "sounds": [
+      "starfall:blink/arrive1",
+      "starfall:blink/arrive2"
+    ]
+  },
+  "item.blink_wand.fizzle": {
+    "subtitle": "subtitles.starfall.item.blink_wand.fizzle",
+    "sounds": [
+      "starfall:blink/fizzle1",
+      "starfall:blink/fizzle2"
+    ]
+  }
+}

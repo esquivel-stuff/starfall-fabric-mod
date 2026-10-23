@@ -2,5 +2,13 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "starfall:item/blink_wand"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "starfall:cooldown": 0.01
+      },
+      "model": "starfall:item/blink_wand_spent"
+    }
+  ]
 }

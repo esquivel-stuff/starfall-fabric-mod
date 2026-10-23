@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "id": "starfall",
   "version": "${version}",
-  "name": "Starfall (Demo)",
-  "description": "A small demo mod: Star Shards, a glowing Star Block, Star Cookies and a Blink Wand that teleports you a few blocks forward.",
+  "name": "Starfall",
+  "description": "A small Fabric mod about fallen stars: Star Shards, a glowing Star Block, Star Cookies and a Blink Wand that blinks you up to 8 blocks forward and always lands you on your feet.",
   "authors": [
     "esquivel-stuff"
   ],
   "contact": {
-    "sources": "https://github.com/esquivel-stuff/fabric-mod-demo"
+    "sources": "https://github.com/esquivel-stuff/starfall-fabric-mod"
   },
   "license": "MIT",
   "icon": "assets/starfall/icon.png",
@@ -16,6 +16,9 @@
   "entrypoints": {
     "main": [
       "dev.esquivel.starfall.Starfall"
+    ],
+    "client": [
+      "dev.esquivel.starfall.client.StarfallClient"
     ]
   },
   "depends": {

@@ -9,6 +9,19 @@ base {
 	archivesName = project.archives_base_name
 }
 
+loom {
+	// Client-only code (particles, the FX packet receiver, model predicates) lives in src/client
+	// so a dedicated server can never class-load it.
+	splitEnvironmentSourceSets()
+
+	mods {
+		"starfall" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+}
+
 repositories {
 	// Loom adds the Minecraft + Fabric repositories automatically.
 }
