@@ -8,7 +8,7 @@
   "item.starfall.star_cookie.tooltip.1": "Baked under an open sky.",
   "item.starfall.blink_wand": "Blink Wand",
   "item.starfall.blink_wand.tooltip.0": "Use to blink up to %s blocks where you look",
-  "item.starfall.blink_wand.tooltip.1": "Always lands on your feet. Recharge: %ss",
+  "item.starfall.blink_wand.tooltip.1": "Never leaves you inside a wall. Recharge: %ss",
   "item.starfall.blink_wand.tooltip.2": "Leaves the stars a little out of place.",
   "block.starfall.star_block": "Star Block",
   "block.starfall.star_block.tooltip.0": "Light level 15. Sheds motes of starlight",

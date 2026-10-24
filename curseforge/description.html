@@ -1,0 +1,71 @@
+<h1>Starfall</h1>
+<p>A small mod about fallen stars. You get one new material, a block that glows, a cookie, and a wand that blinks you forward. That's it. It's small on purpose, and the time went into making those few things feel good.</p>
+<p><img alt="Blink Wand in action" src="https://raw.githubusercontent.com/esquivel-stuff/starfall-fabric-mod/main/docs/screenshots/blink.gif" /></p>
+<h2>What it adds</h2>
+<p><strong>Star Shard.</strong> The crafting material for everything else. It twinkles in your inventory.</p>
+<p><strong>Star Block.</strong> Light level 15 and it stays bright at night. It twinkles slowly and sheds a few motes of starlight. Uses amethyst sounds. You need a pickaxe to get it back, breaking it by hand drops nothing.</p>
+<p><strong>Star Cookie.</strong> Restores 4 hunger (2 drumsticks), can be eaten even when you're full, and gives 30 seconds of Night Vision.</p>
+<p><strong>Blink Wand.</strong> Right-click to blink up to 8 blocks toward where you're looking.
+- It never puts you inside a block. If something is in the way, you stop in front of it. If there's a low ledge (up to 2 blocks), it steps you up onto it.
+- If there's no room at all (say, you're facing a wall up close), it fizzles: you don't move, no durability is used, and the cooldown is short.
+- 64 uses, 1.5 second recharge. The star on the wand dims while it recharges.
+- Heads up: blinking in mid-air still leaves you in mid-air. Fall damage is on you.
+- Every blink has its own particles and sounds (depart, arrive, fizzle, all with subtitles), and other players nearby see and hear it too.</p>
+<p><img alt="Blink sequence" src="https://raw.githubusercontent.com/esquivel-stuff/starfall-fabric-mod/main/docs/screenshots/blink_sequence.jpg" /></p>
+<p><img alt="Star Blocks at night" src="https://raw.githubusercontent.com/esquivel-stuff/starfall-fabric-mod/main/docs/screenshots/star_blocks_night.png" /></p>
+<h2>Recipes</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Recipe</th>
+<th>You get</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Star Shard</td>
+<td>Amethyst Shard + Glowstone Dust (shapeless)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Star Block</td>
+<td>9 Star Shards (fill the grid)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Star Shards from a block</td>
+<td>1 Star Block</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Star Cookie</td>
+<td>Wheat, Star Shard, Wheat in a row</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Blink Wand</td>
+<td>Ender Pearl, Star Shard and Stick on a diagonal (pearl in a top corner, shard in the middle, stick in the opposite bottom corner)</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Blink Wand tooltip" src="https://raw.githubusercontent.com/esquivel-stuff/starfall-fabric-mod/main/docs/screenshots/tooltip_blink_wand.png" /></p>
+<p><img alt="Star Block tooltip" src="https://raw.githubusercontent.com/esquivel-stuff/starfall-fabric-mod/main/docs/screenshots/tooltip_star_block.png" /></p>
+<h2>Requirements</h2>
+<ul>
+<li>Minecraft <strong>1.21.1</strong></li>
+<li><strong>Fabric Loader</strong> 0.16.0 or newer</li>
+<li><strong>Fabric API</strong> for 1.21.1</li>
+<li>Java 21 or newer (the normal Minecraft 1.21.1 launcher already uses it)</li>
+</ul>
+<h2>Server and client</h2>
+<ul>
+<li><strong>Singleplayer:</strong> just drop it in your mods folder with Fabric API.</li>
+<li><strong>Multiplayer:</strong> install it on the server <strong>and</strong> on every player's game. The items, the block and the blink effects need both sides.</li>
+<li>Tested on a 1.21.1 dedicated server with two players connected: blinking, fizzling, the cooldown, the shared particles and sounds, placing and mining the Star Block, the cookie and all five recipes.</li>
+</ul>
+<h2>Languages</h2>
+<p>English and Brazilian Portuguese.</p>
+<h2>License and source</h2>
+<p>MIT licensed. Source code: https://github.com/esquivel-stuff/starfall-fabric-mod</p>

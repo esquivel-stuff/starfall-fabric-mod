@@ -77,9 +77,10 @@ python3 scripts/gen_resources.py   # models, particles, sounds.json, lang, recip
 
 - `./gradlew clean build` passes.
 - `./gradlew runServer`: the mod loads and the dedicated server starts.
+- Multiplayer on a real 1.21.1 dedicated server with two production clients: blink, fizzle, cooldown, shared particles and sounds, the Star Block, the cookie and all five recipes. Full report: [`curseforge/TESTING.md`](curseforge/TESTING.md).
 - `./gradlew runClient` in a real singleplayer world: blinking forward stops short of a wall, aiming at the floor lands you on top of it, the wand climbs a 1 block wall, blinking point-blank into a wall fizzles without moving you, the cooldown icon swaps, the tooltips show and the Star Block glows.
 
-Not tested yet: hearing the sounds in-game (the test machine has no audio device), the Decreased and Minimal particle settings, what other players see in multiplayer, and the Portuguese text in-game.
+Not tested yet: hearing the sounds through real speakers (the test machine has no audio device, so only a recorded audio stream was checked), the Decreased and Minimal particle settings, and the Portuguese text in-game.
 
 ## License
 

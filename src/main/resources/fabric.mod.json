@@ -3,11 +3,12 @@
   "id": "starfall",
   "version": "${version}",
   "name": "Starfall",
-  "description": "A small Fabric mod about fallen stars: Star Shards, a glowing Star Block, Star Cookies and a Blink Wand that blinks you up to 8 blocks forward and always lands you on your feet.",
+  "description": "A small Fabric mod about fallen stars: Star Shards, a glowing Star Block, Star Cookies and a Blink Wand that blinks you up to 8 blocks where you look and never drops you inside a wall.",
   "authors": [
-    "esquivel-stuff"
+    "esquivel_stuff"
   ],
   "contact": {
+    "homepage": "https://github.com/esquivel-stuff/starfall-fabric-mod",
     "sources": "https://github.com/esquivel-stuff/starfall-fabric-mod"
   },
   "license": "MIT",
